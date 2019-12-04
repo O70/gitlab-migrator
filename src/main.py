@@ -45,7 +45,7 @@ if __name__ == '__main__':
 		cfg[key]['headers'] = { 'PRIVATE-TOKEN': cfg[key]['access_token'] }
 		print('%s:' % key)
 		print(cfg[key])
-	cfg['per_page'] = 500
+	cfg['per_page'] = 1000
 
 	# Clean()
 	execute(cfg)
